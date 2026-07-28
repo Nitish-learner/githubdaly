@@ -1,3 +1,6 @@
+// Reverse String Program
+// Author: Nitish Kumar
+
 public class ReverseString {
 
     public static void main(String[] args) {
@@ -5,6 +8,7 @@ public class ReverseString {
         String text = "Java";
         String reverse = "";
 
+        // Reverse the string
         for (int i = text.length() - 1; i >= 0; i--) {
             reverse += text.charAt(i);
         }
