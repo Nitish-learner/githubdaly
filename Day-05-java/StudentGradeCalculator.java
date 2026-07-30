@@ -31,7 +31,9 @@ public class StudentGradeCalculator {
         else
             grade = 'F';
 
-        System.out.println("\n------ RESULT ------");
+        System.out.println("========================");
+System.out.println("   STUDENT REPORT CARD");
+System.out.println("========================");
         System.out.println("Student Name : " + name);
         System.out.println("Total Marks  : " + total);
         System.out.println("Average      : " + average);
