@@ -21,6 +21,12 @@ public class SecondLargest {
 
         int[] arr = {10, 5, 8, 20, 15};
 
+        // Check if array has at least two elements
+        if (arr.length < 2) {
+            System.out.println("Array must contain at least two elements");
+            return;
+        }
+
         int result = findSecondLargest(arr);
 
         System.out.println("Second Largest Element: " + result);
